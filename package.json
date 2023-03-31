@@ -1,5 +1,28 @@
 {
   "dependencies": {
-    "inquirer": "^9.1.5"
-  }
+    "inquirer": "^9.1.5",
+    "jest": "^29.5.0"
+  },
+  "name": "svgmaker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thossain30/SVGMaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thossain30/SVGMaker/issues"
+  },
+  "homepage": "https://github.com/thossain30/SVGMaker#readme"
 }
