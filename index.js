@@ -30,3 +30,20 @@ const questions = [
         name: "shapecolor"
     }
 ];
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            return console.error(err);
+        } else {
+            console.log("Success, the svg image has been generated")
+        }
+    });
+}
+
+// function init() {
+//     inquirer.prompt(questions)
+//     .then(answers => {
+//         writeToFile("./examples/logo.svg");
+//     })
+// }
