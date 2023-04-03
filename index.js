@@ -2,6 +2,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const { default: Choices } = require('inquirer/lib/objects/choices');
 const { default: Choice } = require('inquirer/lib/objects/choice');
+
+const {Shape, Circle, Rectangle, Triangle, Square} = require("./lib/shapes");
 const questions = [
     {
         type: "input",
@@ -30,6 +32,10 @@ const questions = [
         name: "shapecolor"
     }
 ];
+
+function generateSVG() {
+    
+}
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
