@@ -20,10 +20,9 @@ Step 1: Run npm install and Step 2: Run node index.js
 * Answers the questions
 * Your svg will be generated as logo.svg and put inside the examples folder
 
-<!-- <video width="640" height="480" controls>
+<video width="640" height="480" controls>
   <source src="./DemonstrationVideo.mp4" type="video/mp4">
-</video> -->
-
+</video>
 
 ## Questions 
 If you have any questions, contact [thossain30](https://github.com/thossain30) on Github, or reach out via email at tamjidh99@gmail.com.
