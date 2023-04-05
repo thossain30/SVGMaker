@@ -20,7 +20,7 @@ Step 1: Run npm install and Step 2: Run node index.js
 * Answers the questions
 * Your svg will be generated as logo.svg and put inside the examples folder
 
-## Demonstration Video
+## Preview Video
 
 https://user-images.githubusercontent.com/54952959/230179352-686ef274-782e-4ba8-b27f-a2f4ebf3659e.mp4
 
